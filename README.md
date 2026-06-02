@@ -9,10 +9,12 @@ Every real IT problem solved here becomes an automation artifact — documented,
 versioned, and reusable. Built with Claude API, Claude Code, and a full MCP stack.
 
 ## Structure
+
+```
 itops-ai/
 ├── python/
 │   ├── core/
-│   │   └── claude_client.py     ← Claude API wrapper (import this everywhere)
+│   │   └── claude_client.py     ← Claude API wrapper
 │   ├── agents/                  ← Domain-specific AI agents
 │   ├── utils/
 │   │   ├── config.py            ← Env/config loader
@@ -27,6 +29,7 @@ itops-ai/
 ├── java/                        ← Java configs, AI-assisted scripts
 ├── docs/                        ← Architecture diagrams, runbooks
 └── archive/                     ← Completed experiments, preserved
+```
 
 ## Quick Start
 ```bash
